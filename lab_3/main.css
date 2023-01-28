@@ -1,3 +1,14 @@
+.banner {
+    height: 40px;
+    background-color: papayawhip;
+    margin: 10px;;
+    padding: 5px;;
+    font-size: 20pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-style:bold;
+    border:solid pink;
+}
 p {
     color: white;
 }
@@ -29,16 +40,7 @@ a:active{
     font-weight:bold;
     color:blueviolet;
 }
-.banner{
-    height: 40px;
-    background-color: papayawhip;
-    margin: 10px;;
-    padding: 5px;;
-    font-size: 20pt;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: center;
-    font-style:bold;
-}
+
 #task {
     background-color: #ff1d58;
     border:solid darkslategray;
@@ -66,6 +68,7 @@ a:active{
     background-color: violet;
     border:solid darkslategray;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:whitesmoke;
 }
 .contacts {
     background-color: #ff1d58;
@@ -78,6 +81,7 @@ a:active{
     background-color: rgb(208, 182, 12);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border:solid darkslategray;
+    color:whitesmoke; 
 }
 .main_content {
     color:whitesmoke;
@@ -91,7 +95,8 @@ a:active{
 }
 ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin: 1pt;
+    padding: 1pt;
   }
+  
  
