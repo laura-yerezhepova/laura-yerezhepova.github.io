@@ -1,3 +1,14 @@
 p {
-    color: red;
+    color: darkslategrey;
+}
+body {
+    margin: 2px;
+    padding: 2px;
+}
+h1, p {
+    color:darkslategrey;
+font-size: 12.5pt;
+}
+.requirements {
+    background-color: blueviolet;
 }
