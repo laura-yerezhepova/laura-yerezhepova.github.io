@@ -1,14 +1,97 @@
 p {
-    color: darkslategrey;
+    color: white;
 }
 body {
     margin: 2px;
     padding: 2px;
 }
-h1, p {
+h1 {
     color:darkslategrey;
 font-size: 12.5pt;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-style: bold;
 }
-.requirements {
-    background-color: blueviolet;
+p {
+    color:whitesmoke;
+font-size: 12.5pt;
 }
+a:hover {
+ color: darkblue;
+ border: 1px darkgreen;
+ padding: 5px;
+ background-color: bisque;
+}
+a:visited{
+    font-style:italic;
+    color:rgb(116, 6, 6);
+}
+a:active{
+    font-weight:bold;
+    color:blueviolet;
+}
+.banner{
+    height: 40px;
+    background-color: papayawhip;
+    margin: 10px;;
+    padding: 5px;;
+    font-size: 20pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-style:bold;
+}
+#task {
+    background-color: #ff1d58;
+    border:solid darkslategray;
+}
+#requirements {
+    background-color: #f75990;
+    border:solid darkslategray;
+}
+#submission {
+    background-color: #5e5a1e;
+    border:solid darkslategray;
+}
+#grading {
+    background-color: #09879a;
+    border:solid darkslategray;
+}
+#deadline {
+    background-color: #0049B7;
+    border:solid darkslategray;
+}
+.h3 {
+    background-color: beige;
+}
+#dummy {
+    background-color: violet;
+    border:solid darkslategray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.contacts {
+    background-color: #ff1d58;
+    font-size: 10pt;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border:solid darkslategray;
+}
+.categories, .quick_links {
+    background-color: rgb(208, 182, 12);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border:solid darkslategray;
+}
+.main_content {
+    color:whitesmoke;
+    border:solid darkslategray;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.aside_content {
+    color:whitesmoke;
+    border:solid darkslategray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+ 
