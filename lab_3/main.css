@@ -1,20 +1,13 @@
 .banner {
     height: 40px;
     background-color: papayawhip;
-    margin: 10px;;
+    margin: 50px;;
     padding: 5px;;
     font-size: 20pt;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     font-style:bold;
     border:solid pink;
-}
-p {
-    color: white;
-}
-body {
-    margin: 2px;
-    padding: 2px;
 }
 h1 {
     color:darkslategrey;
@@ -48,22 +41,23 @@ a:active{
 #requirements {
     background-color: #f75990;
     border:solid darkslategray;
+    list-style-type: vertical;
 }
 #submission {
-    background-color: #5e5a1e;
+    background-color: #cabc01;
     border:solid darkslategray;
 }
 #grading {
     background-color: #09879a;
     border:solid darkslategray;
+    list-style-type: vertical;
 }
 #deadline {
     background-color: #0049B7;
     border:solid darkslategray;
+    list-style-type: vertical;
 }
-.h3 {
-    background-color: beige;
-}
+
 #dummy {
     background-color: violet;
     border:solid darkslategray;
@@ -87,7 +81,13 @@ a:active{
     color:whitesmoke;
     border:solid darkslategray;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
 }
+.footer {
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 10px;
+  }
 .aside_content {
     color:whitesmoke;
     border:solid darkslategray;
@@ -95,8 +95,19 @@ a:active{
 }
 ul {
     list-style-type: none;
-    margin: 1pt;
-    padding: 1pt;
+    margin: 0;
+    padding: 0;
   }
+  li a {
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-right: 1px solid #bbb;
+  }
+  a {
+    display: block;
+    padding: 10px;
+  }
+
   
- 
