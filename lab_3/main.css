@@ -13,6 +13,7 @@
   text-align: center;
   font-style: bold;
   border: solid pink;
+  color:whitesmoke;
 }
 h1 {
   color: darkslategray;
@@ -25,7 +26,7 @@ p {
   font-size: 12.5pt;
 }
 a:hover {
-  color: darkblue;
+  color: rgb(170, 170, 241);
   border: 1px darkgreen;
   padding: 5px;
   background-color: bisque;
@@ -59,7 +60,7 @@ a:active {
   list-style-type: vertical;
 }
 #deadline {
-  background-color: #0049b7;
+  background-color: #00b780;
   border: solid darkslategray;
   list-style-type: vertical;
 }
@@ -132,7 +133,7 @@ h2 {
   text-align: center;
 }
 header {
-  background-color: black;
+  background-color: rgb(104, 3, 104);
 }
 nav {
   display: flex;
@@ -155,4 +156,8 @@ nav {
 table {
   margin-left: auto;
   margin-right: auto;
+}
+#deadline li::first-line {
+  color:rgb(240, 58, 58);
+font-style: italic;
 }
