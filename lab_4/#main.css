@@ -1,0 +1,164 @@
+* {
+    text-align: center;
+  }
+  
+  .banner {
+    background-image: url(./src/logo.jpg);
+    height: 40px;
+    background-color: papayawhip;
+    margin: 50px;
+    padding: 5px;
+    font-size: 20pt;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-style: bold;
+    border: solid pink;
+    color:whitesmoke;
+  }
+  h1 {
+    color: darkslategray;
+    font-size: 12.5pt;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-style: bold;
+  }
+  p {
+    color: whitesmoke;
+    font-size: 12.5pt;
+  }
+  a:hover {
+    color: rgb(170, 170, 241);
+    border: 1px darkgreen;
+    padding: 5px;
+    background-color: bisque;
+  }
+  a:visited {
+    font-style: italic;
+    color: rgb(116, 6, 6);
+  }
+  a:active {
+    font-weight: bold;
+    color: blueviolet;
+  }
+  
+  #task {
+    background-color: #ff1d58;
+    border: solid darkslategray;
+    justify-content: center;
+  }
+  #requirements {
+    background-color: #f75990;
+    border: solid darkslategray;
+    list-style-type: vertical;
+  }
+  #submission {
+    background-color: #cabc01;
+    border: solid darkslategray;
+  }
+  #grading {
+    background-color: #09879a;
+    border: solid darkslategray;
+    list-style-type: vertical;
+  }
+  #deadline {
+    background-color: #00b780;
+    border: solid darkslategray;
+    list-style-type: vertical;
+  }
+  
+  #dummy {
+    background-color: violet;
+    border: solid darkslategray;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: whitesmoke;
+  }
+  .contacts {
+    background-color: #ff1d58;
+    font-size: 10pt;
+    color: white;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    border: solid darkslategray;
+  }
+  .categories {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(208, 182, 12);
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    border: solid darkslategray;
+    color: whitesmoke;
+  }
+  .quick_links {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(208, 182, 12);
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    border: solid darkslategray;
+    color: whitesmoke;
+  }
+  .main_content {
+    color: whitesmoke;
+    border: solid darkslategray;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+  }
+  .footer {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .aside_content {
+    color: whitesmoke;
+    border: solid darkslategray;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  li a {
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-right: 1px solid #bbb;
+  }
+  a {
+    padding: 10px;
+    max-width: 100px;
+  }
+  h2 {
+    text-align: center;
+  }
+  header {
+    background-color: rgb(104, 3, 104);
+  }
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .menu {
+    display: flex;
+    border-radius: 5%;
+  }
+  
+  .menu li {
+    padding: 10px;
+    border: solid salmon;
+  }
+  .logo img {
+    border-radius: 50%;
+  }
+  table {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #deadline li::first-line {
+    color:rgb(240, 58, 58);
+  font-style: italic;
+  }
+  
