@@ -64,7 +64,7 @@ body {
   font-size: 17px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .topnav.responsive {
     position: relative;
   }
@@ -81,7 +81,7 @@ body {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .topnav .menu {
     display: none;
   }
@@ -126,7 +126,7 @@ footer .contacts,
   flex-direction: row;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   footer {
     display: flex;
     flex-direction: column;
@@ -152,8 +152,8 @@ footer .contacts,
 }
 #grading {
   border: solid darkgrey;
-  width: 50%;
-  max-height: min-content;
+  width: 40%;
+  max-height: fit-content;
   list-style-type: vertical;
 }
 p {
