@@ -152,7 +152,7 @@ footer .contacts,
 }
 #grading {
   border: solid darkgrey;
-  width: 40%;
+  width: auto;
   max-height: fit-content;
   list-style-type: vertical;
 }
