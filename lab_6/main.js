@@ -1,21 +1,33 @@
-var speakWord = "Hello";
-function speak(name) {
-  console.log(speakWord + " " + name);
-}
-(function speak() {
-  var names = ["Aruzhan", "Kamila", "ars", "Zhasmin",
-    "Sultan", "Batyr", "Dima", "Perizat", "Zhazira", "ali", "everybody"];
-  for (let i = 0; i < names.length; i++) {
-    var firstLetter = names[i].charAt(0).toLowerCase();
-      helloSpeaker(names[i]);
-      function helloSpeaker(names) {
-        console.log("Hello " + names);
-      }
-    }
+function main() {
+  let name = prompt("What is your name?");
+  greet(name);
+  function greet(name) {
+    console.log("Hello" + " " + name);
   }
-)();
-console.log(Math.max(5, 8, 7));
-console.log(Math.max(-4, -8, -11));
 
-let arr= [10, 7, 13];
-console.log(10*7*13);
+  product()
+
+  function product(){
+    num1 = parseInt(prompt("Enter first number:"))
+    num2 = parseInt(prompt("Enter second number:"))
+    num3 = parseInt(prompt("Enter third number:"))
+
+    answer = num1 * num2 * num3
+
+    console.log('The product of given three numbers is: ' + answer);
+    alert('The product of given three numbers is: ' + answer)
+  }
+
+  greatest()
+
+  function greatest(){
+    num1 = parseInt(prompt("Enter first number:"))
+    num2 = parseInt(prompt("Enter second number:"))
+    num3 = parseInt(prompt("Enter third number:"))
+
+    greatest = Math.max(num1, num2, num3)
+
+    console.log('The greatest number out of given three numbers is: ' + greatest);
+    alert('The greatest number out of given three numbers is: ' + greatest)
+  }
+}
