@@ -21,36 +21,21 @@ p1.style.color = 'black';
 document.body.appendChild(p1);
 
 
-let li1 = document.createElement('li')
-li1.textContent = 'find elements in the DOM (5 points);';
-li1.style.color = 'green';
-document.body.appendChild(li1);
-
-let li2 = document.createElement('li')
-li2.textContent = 'create/add/remove elements (5 points);';
-li2.style.color = 'purple';
-document.body.appendChild(li2);
-
-let li3 = document.createElement('li')
-li3.textContent = 'change content of the elements (5 points);';
-li3.style.color = 'green';
-document.body.appendChild(li3);
-
-let li4 = document.createElement('li')
-li4.textContent = 'change styles of the elements (5 points);';
-li4.style.color = 'purple';
-document.body.appendChild(li4);
-
-let li5 = document.createElement('li')
-li5.textContent = 'change attributes of the elements (5 points);';
-li5.style.color = 'green';
-document.body.appendChild(li5);
-
-let li6 = document.createElement('li')
-li6.textContent = 'change classes of the elements (5 points).';
-li6.style.color = 'purple';
-document.body.appendChild(li6);
-
+colors_span = ["green", "purple","green", "purple","green", "purple"];
+colors_li = ["green", "purple","green", "purple","green", "purple"];
+let data = ['find elements in the DOM','create/add/remove elements','change content of the elements','change styles of the elements','change attributes of the elements','change classes of the elements'];
+let ul = document.createElement('ul');
+let i = 0;
+for (let user of data) {
+    let li = document.createElement('li');
+    li.style.color = colors_li [i];
+    htmlContent = user + "<span style ='font-weight:bold;color:" + colors_span[i] +" '> (5 points); </span>";
+    console.log(htmlContent);
+    li.innerHTML = htmlContent;
+    i+=1;
+    ul.appendChild(li);
+}
+document.body.appendChild(ul);
 
 var elem = document.createElement("hr");
 elem.setAttribute("width", "auto");
