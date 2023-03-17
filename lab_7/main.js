@@ -56,42 +56,42 @@ document.body.appendChild(p2);
 
 let ul2 = document.createElement('ul')
 
-let li7 = document.createElement('li')
-li7.innerHTML = 'Create a new repository on Github, named <strong>lab7 (1 point)</strong>.';
+let li1 = document.createElement('li')
+li1.innerHTML = 'Create a new repository on Github, named <strong>lab7 (1 point)</strong>.';
+li1.style.color = 'green';
+ul2.appendChild(li1);
+
+let li2 = document.createElement('li');
+li2.innerHTML = 'Clone this repository to your local machine and work inside it.';
+li2.style.color = 'purple';
+ul2.appendChild(li2);
+
+let li3 = document.createElement('li');
+li3.innerHTML = 'Create a new HTML file, called <strong>index.html</strong>, which has only one &lt;h1&gt; tag with "Hello, World!" message <strong>(1 point)</strong>.';
+li3.style.color = 'green';
+ul2.appendChild(li3);
+
+let li4 = document.createElement('li');
+li4.innerHTML = 'Create a new JavaScript file, called <strong>main.js</strong>, which must contain your program (assignment) described above <strong>(1 point)</strong>.';
+li4.style.color = 'purple';
+ul2.appendChild(li4);
+
+let li5 = document.createElement('li');
+li5.innerHTML = 'Link this <strong>main.js</strong> file to your <strong>index.html</strong> file (Note: place your script at the end of the <strong>body</strong> section).';
+li5.style.color = 'green';
+ul2.appendChild(li5);
+
+let li6 = document.createElement('li');
+li6.innerHTML = 'Write a JavaScript program in <strong>main.js</strong> to make your <strong>index.html</strong> look identical to this HTML file <strong>(5 points)</strong>.';
+li6.style.color = 'purple';
+ul2.appendChild(li6);
+
+let li7 = document.createElement('li');
+li7.innerHTML = 'After you finish your work, submit it to the Github <strong>(2 points)</strong>.';
 li7.style.color = 'green';
 ul2.appendChild(li7);
 
-let li8 = document.createElement('li')
-li8.innerHTML = 'Clone this repository to your local machine and work inside it.';
-li8.style.color = 'purple';
-ul2.appendChild(li8);
-
-let li9 = document.createElement('li')
-li9.innerHTML = 'Create a new HTML file, called <strong>index.html</strong>, which has only one h1 tag with "Hello, World!" message <strong>(1 point)</strong>.';
-li9.style.color = 'green';
-ul2.appendChild(li9);
-
-let li10 = document.createElement('li')
-li10.innerHTML = 'Create a new JavaScript file, called <strong>main.js</strong>, which must contain your program (assignment) described above <strong>(1 point)</strong>.';
-li10.style.color = 'purple';
-ul2.appendChild(li10);
-
-let li11 = document.createElement('li')
-li11.innerHTML = 'Link this <strong>main.js</strong> file to your <strong>index.html</strong> file (Note: place your script at the end of the <strong>body</strong> section).';
-li11.style.color = 'green';
-ul2.appendChild(li11);
-
-let li12 = document.createElement('li')
-li12.innerHTML = 'Write a JavaScript program in <strong>main.js</strong> to make your <strong>index.html</strong> look identical to this HTML file <strong>(5 points)</strong>.';
-li12.style.color = 'purple';
-ul2.appendChild(li12);
-
-let li13 = document.createElement('li')
-li13.innerHTML = 'After you finish your work, submit it to the Github <strong>(2 points)</strong>.';
-li13.style.color = 'green';
-ul2.appendChild(li13);
-
-document.body.appendChild(ul2)
+document.body.appendChild(ul2);
 
 var elem = document.createElement("hr");
 elem.setAttribute("width", "auto");
