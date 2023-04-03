@@ -1,12 +1,16 @@
 $(document).ready(function () {
-  correct = ["document", "p", "1989", "3", "12","name"];
+  correct = ["document", "p", "1989", "3", "12","name", "function","hidden","absolute","recursive"];
   questions = [
     "What node within a DOM model is regarded as a root?",
     "Which tag can be used to define a paragraph?",
     "Which year WWW, HTTP and HTML technologies were invented?",
     "How many ways exists to add CSS styles to HTML document?",
     "How many columns does a responsive grid-view have?",
-    "Which keyword of the following cannot be used to declare a new variable?"
+    "Which keyword of the following cannot be used to declare a new variable?",
+    "Which keyword is used to define a function in a Javascript?",
+    "What value of the overflow CSS property hides the extra part of content?",
+    "What element positioning defined to be relative to the nearest positioned ancestor (removes space)",
+    "Which Javascript concept refers to ability of a function to call itself during the program execution?"
   ];
   choice_options = [
     ["document", "div", "html", "body"],
@@ -15,6 +19,10 @@ $(document).ready(function () {
     ["5","6","4","3"],
     ["12","10","8","6"],
     ["const", "var", "let", "name"]
+    ["var","function","let","def"]
+    ["absolute","recursive","hidden","media"]
+    ["absolute","recursive","hidden","media"]
+    ["absolute","recursive","hidden","media"]
   ];
 
   quizBox = $("#quiz-box");
@@ -49,7 +57,7 @@ $(document).ready(function () {
       });
     }
     $("#quiz-box").append(
-      "<h2>Result of the quiz is: " + countCorrect + '/' + questions.length + "</h2>"
+      "<h2>Your Quiz Results = : " + countCorrect + '/' + questions.length + "</h2>"
     );
   });
 
