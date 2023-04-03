@@ -18,11 +18,11 @@ $(document).ready(function () {
     ["1991","1988","1989","1990"],
     ["5","6","4","3"],
     ["12","10","8","6"],
-    ["const", "var", "let", "name"]
-    ["var","function","let","def"]
-    ["absolute","recursive","hidden","media"]
-    ["absolute","recursive","hidden","media"]
-    ["absolute","recursive","hidden","media"]
+    ["const", "var", "let", "name"],
+    ["var","function","let","def"],
+    ["name","recursive","hidden","media"],
+    ["absolute","function","document","body"],
+    ["grid-view","recursive","D3","SVG"]
   ];
 
   quizBox = $("#quiz-box");
@@ -57,7 +57,7 @@ $(document).ready(function () {
       });
     }
     $("#quiz-box").append(
-      "<h2>Your Quiz Results = : " + countCorrect + '/' + questions.length + "</h2>"
+      "<h2>Your Quiz Results = " + countCorrect + '/' + questions.length + "</h2>"
     );
   });
 
