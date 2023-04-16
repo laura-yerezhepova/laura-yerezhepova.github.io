@@ -145,7 +145,7 @@ function scatterPlot() {
           return y(d.y);
         })
         .attr("r", 1.5)
-        .style("fill", "#69b3a2");
+        .style("fill", "#FF0000");
     }
   );
 }
