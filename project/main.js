@@ -193,7 +193,7 @@ function topFunction() {
 
 function quiz() {
   if (confirm("Do you want to take quiz about me?") == true) {
-    location.replace("/pages/quiz.html");
+    location.replace("/project/pages/quiz.html");
   }
 }
 
